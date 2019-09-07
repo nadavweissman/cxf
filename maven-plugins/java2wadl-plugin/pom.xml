@@ -35,7 +35,7 @@
     </parent>
     <properties>
         <cxf.module.name>org.apache.cxf.plugin.java2wadl</cxf.module.name>
-        <cxf.manifest.location />
+        <cxf.manifest.location/>
     </properties>
 
     <dependencies>
@@ -71,12 +71,12 @@
         <dependency>
             <groupId>org.codehaus.plexus</groupId>
             <artifactId>plexus-utils</artifactId>
-            <version>2.0.5</version>
+            <version>3.0.24</version>
         </dependency>
         <dependency>
             <groupId>org.codehaus.plexus</groupId>
             <artifactId>plexus-archiver</artifactId>
-            <version>1.2</version>
+            <version>3.5</version>
         </dependency>
 
         <dependency>
@@ -205,7 +205,7 @@
                                     <target>
                                         <!-- The javadoc dumping capability requires com.sun classes from with rt/classes.jar -->
                                         <propertyfile file="${basedir}/.settings/org.eclipse.jdt.core.prefs">
-                                            <entry key="org.eclipse.jdt.core.compiler.problem.forbiddenReference" value="ignore" />
+                                            <entry key="org.eclipse.jdt.core.compiler.problem.forbiddenReference" value="ignore"/>
                                         </propertyfile>
                                     </target>
                                 </configuration>
